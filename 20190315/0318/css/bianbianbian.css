@@ -1,0 +1,16 @@
+div{
+	background-color: #0000FF;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	 /*margin: auto;*/
+	 color: white;
+	 transition: 1s;
+	
+	
+}
+div:hover{
+	     border-radius:100px;
+		}
+ 

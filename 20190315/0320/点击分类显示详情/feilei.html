@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				float: left;
+			}
+			#categroy{
+				width: 190px;
+				height: 480px;
+				background-color: aquamarine;
+				
+			}
+			#categroy:hover + #content{
+				display: block;
+			}
+		ul{
+			list-style: none;
+			color: black;
+		}	
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		#content{
+			width: 998px;
+			height: 480px;
+			background-color: blanchedalmond;
+			/*隐藏*/
+		/*	visibility: hidden;*/
+			display: none;
+		}
+		#content:hover
+		{
+			display: block;
+		}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="categroy">
+			<ul>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">家用电器</a></li>
+			</ul>
+		</div>
+		<div id="content"></div>
+	</body>
+</html>

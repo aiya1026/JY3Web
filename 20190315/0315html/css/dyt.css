@@ -1,0 +1,55 @@
+a,b,c,d,e,f,g {
+	color: #808080;
+	/*background-color:#E9E7E3;*/
+	word-spacing: 30px;
+	font-size:30px;
+	text-align: center;}
+	td:hover {background-color:#414141;
+	}
+	td
+	{
+		text-align:center ;
+	}
+	/*b:hover {background-color:#414141;
+	}
+	c:hover {background-color:#414141;
+	}
+	d:hover {background-color:#414141;
+	}
+	e:hover {background-color:#414141;
+	}
+	f:hover {background-color:#414141;
+	}
+	g:hover {background-color:#414141;
+	}*/
+	
+	/*a:hover {background-color:#414141;
+	}
+	b:hover {background-color:#414141;
+	}
+	c:hover {background-color:#414141;
+	}
+	d:hover {background-color:#414141;
+	}
+	e:hover {background-color:#414141;
+	}
+	f:hover {background-color:#414141;
+	}
+	g:hover {background-color:#414141;
+	}*/
+	
+	c,f,g{
+		word-spacing: 7px;
+	}
+     d{
+     	letter-spacing: 7px
+     	
+     }
+    table
+  {
+  width:100%;
+  background:#E9E7E3;
+  height:30px;
+  
+  
+  }  

@@ -1,0 +1,92 @@
+#dayuan{
+	border: 5px blue solid;
+	
+	width: 150px;
+	height: 150px;
+	/*line-height: 200px;*/
+	/* margin: auto;*/
+	border-radius:75px;
+	/*text-align: center;
+	color: blue;*/
+	position: absolute;
+	left: 350px;
+	top: 100px;
+		}
+#biankuang{
+	border: 3px blue solid;
+	
+	width: 500px;
+	height: 350px;
+	line-height: 200px;
+	 margin: auto;
+	border-radius:40px 40px 0px 40px;
+}	
+#xiaoyuan{
+	border: 3px blue solid;
+	
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	position: absolute;
+	left: 915px;
+	top: 340px;
+}	
+#da{
+	color: blue;
+	font-size: 50px;
+	/*text-align: center;*/
+	/*font-weight: bold;*/
+}
+	
+
+p{
+	color: blue;
+	font-size: 20px;
+	/*
+	 * 左对齐
+	 */
+	text-align: left;
+	line-height: 40px;
+	margin-left: 119px;
+;
+	
+}
+#zhedang{
+	border: 3px white solid;
+	width: 200px;
+	height: 230px;
+/*	line-height: 200px;*/
+    position: absolute;
+	left: 430px;
+	top: 40px;
+   
+	
+}
+#zhengdangya{
+	border: 3px white solid;
+	width:80px;
+	height: 15px;
+	position: absolute;
+	left: 850px;
+	top: 343px;
+}
+	
+#heng{
+	width: 30px;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	left: 420px;
+	top: 176px;
+}
+#shu{
+	width: 5px;
+	height: 30px;
+	background-color: blue;
+	position: absolute;
+    left: 433px;
+	top: 163px;
+		}
+
+ 
+

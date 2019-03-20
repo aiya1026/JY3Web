@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximun-scale=1.0,user-scalable=0"/>
+		<link rel="stylesheet" href="../css/xinxi.css" />
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#container{
+			 width: 100%;
+			 height: 60px;	
+			 /*background-color: red;*/
+			 position: absolute;
+			 bottom: 0px;
+			 /*
+			  * 设置字体大小
+			  */
+		
+			}
+			.subDiv{
+				width: 25%;
+				height: 70px;
+				/*background-color: blue;*/
+				/*
+				 * 设置内联块元素
+				 */
+				/*display:inline-block;*/
+				float: left;
+				text-align: center;
+				
+			}
+			.subDiv img{
+				width: 70%;
+				height: 70%;
+				
+			}
+			/*.subDiv:nth-child(2){
+				background-color: aqua;
+			}
+			.subDiv:nth-child(3){
+				background-color:antiquewhite;
+			}
+			.subDiv:nth-child(4){
+				background-color: blueviolet;
+			}*/
+			span{
+				display: block;
+			}
+			.wsd{
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				background-color: red;
+				position: absolute;
+				left: 56px;
+				
+			}
+			.wsd span{
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+		<div class="subDiv">
+			<div class="wsd"><span>5</span></div>
+			<img src="../img/45-微信-消息 (1).svg" />
+			<span>微信</span>
+		</div>
+		<div class="subDiv">
+			<img src="../img/icon_addperson.svg" />
+			<span>通讯录</span>
+		</div>
+		<div class="subDiv">
+			<img src="../img/compass.svg" />
+			<span>发现</span>
+		</div>	
+			
+		<div class="subDiv">
+			<img src="../img/icon_boss (1).svg" />
+			<span>我</span>
+		</div>
+			
+		</div>
+		
+			
+	
+	</body>
+</html>
