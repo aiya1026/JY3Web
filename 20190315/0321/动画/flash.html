@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			@-webkit-keyframes feizhuan{
+				0%{
+					width: 200px;
+					height: 150px;
+					background-color: sandybrown;
+					border-radius: 30px;
+					left: 20px;
+					top: 100px;
+				    }
+				25%{
+					width: 200px;
+					height: 150px;
+					background-color: sandybrown;
+					border-radius: 30px;
+					transform: rotate(20deg);
+					background-color: darkgoldenrod;
+					left: 20px;
+					top: 100px;
+	               }
+				50%{
+					width: 200px;
+					height: 150px;
+					background-color: chartreuse;
+					border-radius: 30px;
+					transform: rotate(0deg);
+					left: 500px;
+					top: 100px;
+	               }
+	            100%{
+					width: 200px;
+					height: 150px;
+					background-color: sandybrown;
+					border-radius: 30px;
+				/*	transform: rotate(20deg); */
+					left: 20px;
+					top: 100px; 
+					transform: rotate(-360deg);
+					}
+			}
+			div{
+					animation: feizhuan 5s;
+					position: absolute;
+					text-align: center;
+					line-height: 150px;
+					width: 200px;
+					height: 150px;
+					background-color: sandybrown;
+					border-radius: 30px;
+					left: 20px;
+					top: 100px;
+				}
+		</style>
+	</head>
+	<body>
+		<div>CSS&nbsp;&nbsp;动画</div>
+	</body>
+</html>

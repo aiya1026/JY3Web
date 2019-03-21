@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*定义动画规则*/
+			@-webkit-keyframes chongdiana{
+				0%{
+					width: 40px;
+					height: 30px;
+					border-radius: 7px;
+					background: pink;
+				}
+				/*25%{
+					width: 60px;
+					height: 30px;
+					background: #76FF03;*/
+				50%{
+					width: 70px;
+					height: 30px;
+					border-radius: 7px;
+					background: #76FF03;
+				}
+				/*75% {
+					width: 80px;
+					height: 30px;
+					background: #76FF03;*/
+				
+				100%{
+					width: 100px;
+					height: 30px;
+					border-radius: 7px;
+					background-color: #76FF03;
+				}
+			}
+			#div2{
+				
+				animation: chongdiana 4s linear infinite/*alternate*/;
+		/*		animation-iteration-count: infinite ;*/
+		        justify-content: center;
+			}
+			#div1{
+				width: 120px;
+				height: 40px;
+				border: 2px solid black;
+				border-radius: 4px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+		<div id="div2"></div>
+		</div>
+	</body>
+</html>

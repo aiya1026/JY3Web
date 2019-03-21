@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width: 200px;
+				height:100px;
+				background-color: darkblue;
+				/*transition: transform 2s,box-shadow 3s;*/
+				transition: all 2s;
+				/*transition-delay: 2s;*/
+				transition-timing-function: ease-in-out;
+				text-align: center;
+				margin: 100px;
+			}
+			div:hover{
+				transform: rotate(360deg) scale(1.5);
+				background-color: fuchsia;
+			/*	box-shadow: 20px 20px 0px gold;*/
+			}
+		</style>
+	</head>
+	<body>
+		<div>过渡效果</div>
+	</body>
+</html>
