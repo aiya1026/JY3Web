@@ -1,0 +1,134 @@
+#faxianjiemian{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#pengyouquan{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#pengyouquan img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#pengyouquan span{
+	font-size: 50px;
+	/*text-align: center;*/
+	line-height: 100px;
+	margin-right: 650px;
+	
+}
+#saoyisao{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#saoyisao img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#saoyisao span{
+	font-size: 50px;
+	/*text-align: center;*/
+	line-height: 100px;
+	margin-right: 650px;
+	
+}
+#yaoyiyao{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#yaoyiyao img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#yaoyiyao span{
+	font-size: 50px;
+	/*text-align: center;*/
+	line-height: 100px;
+	margin-right: 650px;
+	
+}
+
+
+#fujinderen{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#fujinderen img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#fujinderen span{
+	font-size: 50px;
+	line-height: 100px;
+	margin-right: 600px;
+}
+
+
+
+#gouwu{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#gouwu img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#gouwu span{
+	font-size: 50px;
+	/*text-align: center;*/
+	line-height: 100px;
+	margin-right: 700px;
+	
+}
+
+
+
+
+#youxi{
+	width: 100%;
+	height: 100px;
+	background-color: peachpuff;
+	display: flex;
+	justify-content: space-between;
+}
+#youxi img{
+	width: 70px;
+	justify-content: center;
+	margin-left: 40px;
+}
+#youxi span{
+	font-size: 50px;
+	/*text-align: center;*/
+	line-height: 100px;
+	margin-right: 700px;
+	
+}
+#xiabai{
+	height: 600px;
+	overflow: scroll;
+	background-color: gainsboro;
+}
+
+

@@ -2,4 +2,29 @@
 	width: 100%;
 	height: 100px;
 	background-color: #A52A2A;
+	display: flex;
+	justify-content: space-between;
+}
+#leftTitle{
+	flex: 0.7;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+#rightTitle{
+	flex: 0.3;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#leftTitle span{
+	font-size: 40px;
+	color: white;
+}
+#rightTitle img{
+	width: 65px;
+	height:65px;
+	
 }

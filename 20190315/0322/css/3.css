@@ -1,0 +1,47 @@
+#pengyouquanjiemian{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+#Pphoto{
+	width: 100%;
+	height: 130px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+#Pphoto img{
+	width: 100px;
+/*	height: 100px;*/
+}	
+#Pphoto span{
+	font-size: 60px;
+	color: white;
+	line-height: 130px;
+	margin-right: 400px;
+}
+#beijingtupian{
+	display: flex;
+	justify-content: space-between;
+}	
+#beijingtupian img{
+	width: 100%;
+	height: 600px;
+}
+#Thrones{
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	left: 540px;
+	top: 660px;
+}
+#erya{
+	width: 240px;
+	height: 200px;
+	position: absolute;
+	left: 720px;
+	top:610px;
+	
+}

@@ -22,6 +22,9 @@
 }
 #rightSign{
 	flex: 0.3;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }	
 #leftSign ul li{
 	width: 10px;
@@ -44,10 +47,22 @@
     font-size: 30px; 
 }
 #leftSign img{
-	width: 70px;
-	height: 70px;
+	width: 60px;
+	height:60px;
 }
 #centerSign span{
 	font-size: 40px;
 	color: white;
+}
+#rightSign img{
+	width: 70px;
+	height: 70px;
+}
+#rightSign span{
+	font-size: 40px;
+	color: white;
+}
+#rightSign img{
+	width: 70px;
+	height: 70px;
 }
