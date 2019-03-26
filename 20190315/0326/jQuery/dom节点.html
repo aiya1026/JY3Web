@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			.imgs{
+				width: 150px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+	    <div id="container">
+	    	<img src="../img/eryaa.jpg" class="imgs"/>
+	    		<span>干啥呢</span>
+	    </div>
+	    <button id="btn1">点击发送</button>
+	    <script>
+	    	$(function(){
+	    	 $("#container").css({"width":"700px","height":"800px","border":"1px solid black","display":"flex","flex-direction":"column"});
+	    	 $("#btn1").css({"position":"absolute","top":"800px"});
+	    	//点击事件
+	    	$("#btn1").click(function(){
+	    		$("#container").append("<img src='../img/eryaa.jpg' class='imgs'/><span>干啥呢</span>");
+	    	})
+	    	})
+	    </script>
+	</body>
+</html>

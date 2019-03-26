@@ -45,3 +45,25 @@
 	top:610px;
 	
 }
+#bulandeng{
+	width: 160px;
+	height: 140px;
+	position: absolute;
+	left: 50px;
+	top:890px;
+}
+#Buland{
+	font-size: 40px;
+	font-family: "arial narrow";
+	color: blueviolet;
+	position: absolute;
+	left: 240px;
+	top: 900px;
+}
+#heiye{
+	font-size: 40px;
+	color: black;
+	position: absolute;
+	left: 255px;
+	top: 965px;
+}
