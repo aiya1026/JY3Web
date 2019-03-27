@@ -1,0 +1,71 @@
+#logo{
+	width: 100%;
+	height: 700px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid gray;
+}
+#SYS{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 30px;
+	top: 110px;
+}
+#FLSS{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 20px;
+	top: 100px;
+}
+#sousuo{
+	width: 500px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 50px;
+	position: absolute;
+	display: flex;
+	left: 238px;
+	top: 135px;
+}
+#sousuo img{
+	width: 70px;
+	height: 100%px;
+	line-height: 100%;
+	margin-left: 50px;
+	
+}
+#sousuo span{
+	font-size: 40px;
+/*	position: absolute;*/
+	margin-top: 13px;
+}
+#LOGO{
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	left: 240.5px;
+	top: 280px;
+}
+#apple{
+	font-size: 60px;
+	position: absolute;
+	left: 400px;
+	top: 640px;
+}
+#DL{
+	font-size: 50px;
+	background-color: aqua;
+	position: absolute;
+	right: 100px;
+	top: 610px;
+}
+#ZC{
+	font-size: 50px;
+	background-color: aqua;
+	position: absolute;
+	right: 100px;
+	top: 680px;
+}

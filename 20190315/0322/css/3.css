@@ -67,3 +67,17 @@
 	left: 255px;
 	top: 965px;
 }
+#shijiana{
+	font-size: 30px;
+	color: gray;
+	position: absolute;
+	left: 230px;
+	top: 1060px;
+}
+#liuyan{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 850px;
+	top:1050px;
+}

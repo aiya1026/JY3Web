@@ -1,0 +1,11 @@
+#lunbo{
+	width: 100%;
+	height: 500px;
+	background-color: #A52A2A;
+	display: flex;
+	justify-content: space-between;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
