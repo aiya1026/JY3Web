@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+#denglujiemian
+    {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	}
+#dingbu{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+}
+.signSubDiv{
+	height: 100%;
+}
+#leftSign{
+	flex: 0.3;
+	display: flex;
+	align-items: center;
+	
+	}
+#centerSign{
+	flex: 0.4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#rightSign{
+	flex: 0.3;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}	
+#leftSign ul li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 2px;
+	border: 1px solid white;
+	/*background-color: #FFFFFF;*/
+}
+.haveSign{
+	background-color: white;}
+
+#leftSign ul {
+	list-style: none;
+	display: flex;
+	margin-left: 10px;
+}
+#leftSign span{
+	color: white;
+    font-size: 30px; 
+}
+#leftSign img{
+	width: 60px;
+	height:60px;
+}
+#centerSign span{
+	font-size: 40px;
+	color: white;
+}
+#rightSign img{
+	width: 70px;
+	height: 70px;
+}
+#rightSign span{
+	font-size: 40px;
+	color: white;
+}
+#rightSign img{
+	width: 70px;
+	height: 70px;
+}	
+	
+	
+#R{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 50px;
+	top: 110px;
+}	
+#L{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 230px;
+	top: 350px;
+}
+#A{
+	font-size: 50px;
+	position: absolute;
+	left: 450px;
+	top: 750px;
+}
+#zhanghao{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 950px;
+}
+#input1{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 330px;
+	top: 950px;
+	border: 3px solid black;
+	font-size: 50px;
+	
+}
+#mima{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 1070px;
+}
+#input2{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 330px;
+	top: 1070px;
+	border: 3px solid black;
+	font-size: 50px;
+}
+#input3{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left: 430px;
+	top: 1270px;
+	border: 3px solid black;
+	background-color: red;
+	font-size: 50px;
+}

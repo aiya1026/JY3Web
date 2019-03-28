@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+#zhucejiemian
+    {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	}
+#R{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 50px;
+	top: 110px;
+}	
+#L{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 230px;
+	top: 350px;
+}
+#A{
+	font-size: 50px;
+	position: absolute;
+	left: 450px;
+	top: 750px;
+}
+#zhanghao{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 950px;
+}
+#input1{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 330px;
+	top: 950px;
+	border: 3px solid black;
+	font-size: 50px;
+	
+}
+#mima{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 1070px;
+}
+#input2{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 330px;
+	top: 1070px;
+	border: 3px solid black;
+	font-size: 50px;
+}
+
+#mima2{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 1190px;
+}
+#input3{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 330px;
+	top: 1190px;
+	border: 3px solid black;
+	font-size: 50px;
+}
+#shoujihao{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 1310px;
+}
+#input4{
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	left: 380px;
+	top: 1310px;
+	border: 3px solid black;
+	font-size: 50px;
+}
+#yanzhengma{
+	font-size: 60px;
+	position: absolute;
+	left: 150px;
+	top: 1430px;
+}
+#input5{
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	left: 380px;
+	top: 1430px;
+	border: 3px solid black;
+	font-size: 50px;
+}
+#input6{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left: 430px;
+	top: 1600px;
+	border: 3px solid black;
+	background-color: red;
+	font-size: 50px;
+}

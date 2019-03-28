@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+#shopping
+    {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	}
+#R
+    {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 30px;
+	top: 90px;
+    }
+#GWC{
+	font-size: 60px;
+	font-family: "楷体";
+	position: absolute;
+	left: 70px;
+	top: 210px;
+} 
+#GL{
+	font-size: 40px;
+	position: absolute;
+	right: 70px;
+	top: 220px;
+}
+#G{
+	font-size: 35px;
+	position: absolute;
+	color: brown;
+	left: 100px;
+	top: 300px;
+}
+#circle1{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 2px solid black;
+	position: absolute;
+	left: 40px;
+	top: 400px;
+}   
+#G1{
+	width: 380px;
+	height: 380px;
+	position: absolute;
+	left: 140px;
+	top: 390px;
+}	
+#Y{
+	font-size: 40px;
+	color: blueviolet;
+	position: absolute;
+	left: 170px;
+	top: 790px;
+  }	
+#XH{
+	font-size: 45px;
+	position: absolute;
+	right: 35px;
+	top: 450px;
+}
+#MX{
+	font-size: 40px;
+	position: absolute;
+	right: 80px;
+	top: 530px;
+}
+#JG{
+	font-size: 60px;
+	position: absolute;
+	color: red;
+	right: 130px;
+	top: 660px;
+}
+#circle2{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 2px solid black;
+	position: absolute;
+	left: 40px;
+	top: 900px;
+}   
+#G2{
+	width: 380px;
+	height: 380px;
+	position: absolute;
+	left: 140px;
+	top: 860px;
+}	
+#Y2{
+	font-size: 40px;
+	color: blueviolet;
+	position: absolute;
+	left: 170px;
+	top: 1240px;
+  }	
+#XH2{
+	font-size: 45px;
+	position: absolute;
+	right: 100px;
+	top: 920px;
+}
+#MX2{
+	font-size: 40px;
+	position: absolute;
+	right: 110px;
+	top: 1000px;
+}
+#JG2{
+	font-size: 60px;
+	position: absolute;
+	color: red;
+	right: 130px;
+	top: 1130px;
+}

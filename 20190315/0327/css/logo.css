@@ -1,6 +1,6 @@
 #logo{
 	width: 100%;
-	height: 700px;
+	height: 600px;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
@@ -20,10 +20,21 @@
 	right: 20px;
 	top: 100px;
 }
+/*#sousuo{
+	width: 500px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 50px;
+	position: absolute;
+	display: flex;
+	left: 238px;
+	top: 135px;
+}*/
 #sousuo{
 	width: 500px;
 	height: 80px;
 	border: 2px solid black;
+	font-size: 40px;
 	border-radius: 50px;
 	position: absolute;
 	display: flex;
@@ -47,25 +58,25 @@
 	height: 350px;
 	position: absolute;
 	left: 240.5px;
-	top: 280px;
+	top: 230px;
 }
 #apple{
 	font-size: 60px;
 	position: absolute;
 	left: 400px;
-	top: 640px;
+	top: 580px;
 }
 #DL{
 	font-size: 50px;
 	background-color: aqua;
 	position: absolute;
 	right: 100px;
-	top: 610px;
+	top: 520px;
 }
 #ZC{
 	font-size: 50px;
 	background-color: aqua;
 	position: absolute;
 	right: 100px;
-	top: 680px;
+	top: 600px;
 }
