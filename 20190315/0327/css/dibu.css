@@ -4,6 +4,7 @@
 	background-color: seagreen;
 	display: flex;
 	
+	
 	}
 #dibu img{
 	width: 60px;
@@ -39,7 +40,9 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background-color: brown;
+}
+#gouwuche span{
+	color: #000000;
 }
 #wodezhanghu{
 	flex: 0.25;

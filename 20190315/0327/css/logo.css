@@ -68,14 +68,14 @@
 }
 #DL{
 	font-size: 50px;
-	background-color: aqua;
+	color: #00FFFF;
 	position: absolute;
 	right: 100px;
 	top: 520px;
 }
 #ZC{
 	font-size: 50px;
-	background-color: aqua;
+	color: #00FFFF;
 	position: absolute;
 	right: 100px;
 	top: 600px;
