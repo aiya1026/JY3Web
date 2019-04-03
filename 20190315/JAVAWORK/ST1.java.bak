@@ -1,0 +1,22 @@
+import java.util.*;
+public class ST1
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		char userName = 'a';
+		char passWord = 'b';
+		System.out.print("请输入账户名:");
+		String inputUser = scanner.next();
+		System.out.print("请输入密码:");
+		String inputPsw = scanner.next();
+		char c1 = inputUser.charAt(0);
+		char c2 = inputPsw.charAt(0);
+		
+		//if(c1 == userName && c2 == passWord)
+		if(c1 == userName || c2 == passWord)
+		{
+		 System.out.println("success");
+		}
+	}
+}

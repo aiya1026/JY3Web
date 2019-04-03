@@ -1,0 +1,15 @@
+import java.util.*;
+public class XT021
+{
+	public static void main(String[] args)
+	{
+		char num = '0';
+		int c = getCharToInt(num);
+		System.out.println(c);
+	}
+	//定义char转int的方法
+	public static int getCharToInt(char c)
+	{
+		return c;
+	}
+}  
